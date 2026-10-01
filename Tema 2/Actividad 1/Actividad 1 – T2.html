@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+<title>Actividad 1 – T2</title>
+<style>
+:root{--azul:#123b63;--azul2:#1769aa;--fondo:#f4f7fb;--texto:#243447;--rojo:#c0392b;--amarillo:#d99b00}
+*{box-sizing:border-box}
+body{margin:0;font-family:Arial,Helvetica,sans-serif;background:var(--fondo);color:var(--texto);line-height:1.6}
+header{background:linear-gradient(135deg,var(--azul),var(--azul2));color:#fff;padding:42px 20px;text-align:center}
+header h1{margin:0 0 8px;font-size:clamp(28px,5vw,44px)}
+header p{margin:0;font-size:18px}
+.container{max-width:1000px;margin:30px auto;padding:0 18px}
+.card{background:#fff;border-radius:16px;padding:26px;margin-bottom:22px;box-shadow:0 5px 18px rgba(0,0,0,.08)}
+h2{color:var(--azul);margin-top:0}
+.badge{display:inline-block;background:#e9f2fb;color:var(--azul);padding:7px 12px;border-radius:20px;font-weight:bold}
+.description{text-align:justify;line-height:1.7}
+.deadline{border-left:6px solid var(--rojo);background:#fff1ef;padding:18px 20px;border-radius:10px;font-weight:bold}
+
+/* REQUERIMIENTOS: viñetas redondas visibles */
+.requirements-list{margin:0;padding-left:30px;list-style:disc}
+.requirements-list li{display:list-item;margin:11px 0;padding-left:3px;text-align:justify;line-height:1.65}
+
+/* INSTRUCCIONES: círculos azules numerados */
+.steps{counter-reset:paso;margin:0;padding:0;list-style:none}
+.steps li{counter-increment:paso;position:relative;margin:12px 0;min-height:56px;padding:14px 18px 14px 78px;background:#f7f9fc;border-radius:10px;text-align:justify;line-height:1.65}
+.steps li::before{content:counter(paso);position:absolute;left:14px;top:12px;width:42px;height:42px;border-radius:50%;background:var(--azul2);color:#fff;text-align:center;line-height:42px;font-weight:bold;font-size:19px}
+
+/* NOTA IMPORTANTE: viñetas redondas */
+.warning{background:#fff0ee;border-left:6px solid var(--rojo);padding:18px;border-radius:10px}
+.note-list{margin:0;padding-left:30px;list-style:disc}
+.note-list li{display:list-item;margin:8px 0;text-align:justify;line-height:1.65}
+
+/* CHECKLIST: solo viñetas, sin cuadros */
+.checklist-list{margin:0;padding-left:30px;list-style:disc}
+.checklist-list li{display:list-item;margin:8px 0;text-align:justify;line-height:1.65}
+
+.delivery{text-align:center;padding:18px 10px}
+.delivery-link{display:inline-block}
+.delivery-link img{display:block;width:140px;max-width:60vw;height:auto;margin:10px auto;cursor:pointer}
+.delivery-text{font-weight:bold;color:var(--azul2)}
+.note{background:#fff8df;border-left:6px solid var(--amarillo);padding:18px;border-radius:10px;text-align:justify}
+footer{text-align:center;padding:30px 15px;color:#667}
+</style>
+</head>
+<body>
+<header><h1>Actividad 1 – T2</h1><p>Firma y Archivo correspondiente al Ejercicio 18</p></header>
+<main class="container">
+
+<section class="card">
+<span class="badge">Ejercicio 18</span>
+<h2>Diseño y programación de dos semáforos</h2>
+<p class="description">Con base en el Recurso para la Actividad 1 - T2, diseñar y programar en mBlock la secuencia de funcionamiento de dos semáforos, aplicando estructuras de secuencia, temporización y coordinación entre señales.</p>
+</section>
+
+<section class="card">
+<h2>Requerimientos del sistema</h2>
+<ul class="requirements-list"><li>Implementación física y simulada: El sistema debe demostrarse tanto de forma virtual como en un circuito físico.</li><li>Control de activación: Incorporar un botón pulsador (push button) que active la secuencia de los semáforos al mantenerse presionado.</li><li>Animación e interfaz: Incluir en la interfaz gráfica de mBlock la animación del flujo vehicular, la cual debe responder adecuadamente a los estados de los semáforos.</li></ul>
+</section>
+
+<section class="card">
+<h2>Fecha límite</h2>
+<div class="deadline">26 de septiembre de 2026 · 23:59 h (CDMX)</div>
+</section>
+
+<section class="card">
+<h2>Instrucciones de entrega</h2>
+<ol class="steps"><li>Entregar una imagen de la firma asignada al ejercicio desarrollado y entregado durante la clase, de acuerdo con las instrucciones proporcionadas en clase.</li><li>La imagen deberá ser clara y legible, permitiendo identificar correctamente la firma.</li><li>Entregar el archivo de simulación con extensión .mblock, respetando el nombre solicitado para la entrega del archivo.</li><li>La entrega del archivo deberá realizarla un solo integrante del equipo.</li><li>Nombrar correctamente los archivos.</li></ol>
+</section>
+
+<section class="card">
+<h2>Formato para nombrar los archivos</h2>
+<p>Utilizar el siguiente formato:</p>
+<div class="filename" style="background:#17202a;color:#fff;padding:14px 16px;border-radius:9px;font-family:Consolas,monospace;margin:8px 0">ACX - Nombres.jpg</div>
+<div class="filename" style="background:#17202a;color:#fff;padding:14px 16px;border-radius:9px;font-family:Consolas,monospace;margin:8px 0">ACX - Nombres.mblock</div>
+<ul>
+<li><strong>AC:</strong> Actividad.</li>
+<li><strong>X:</strong> Número de la actividad.</li>
+<li><strong>Nombres:</strong> Nombres de los integrantes. Ejemplo: Juan - Pedro.</li>
+</ul>
+</section>
+
+<section class="card">
+<h2>Entrega del archivo</h2>
+<p><strong>Este archivo no se entregará por este medio; deberá enviarse a través del siguiente enlace:</strong></p>
+<div class="delivery">
+<a class="delivery-link" href="https://itsaoedu-my.sharepoint.com/:f:/g/personal/osmar_zanabria_itsao_edu_mx/IgBDlNtMmWMZSIryrcMKORHvAaHMx25WBBsVBoIMSsWG0hg" target="_blank" rel="noopener noreferrer">
+<img src="https://i.ibb.co/bfp3Vs2/one.png" alt="Abrir carpeta de entrega">
+</a>
+<div class="delivery-text">Haz clic en la imagen para realizar la entrega</div>
+</div>
+<div class="note"><strong>Nota:</strong> el enlace abre la carpeta de entrega en una nueva pestaña.</div>
+</section>
+
+<section class="card">
+<h2>Notas importantes</h2>
+<div class="warning"><ul class="note-list"><li>La firma deberá corresponder al ejercicio desarrollado y entregado durante las sesión de clase.</li><li>Las entregas que no cumplan con lo indicado no serán tomadas en cuenta para su evaluación.</li><li>La entrega de esta evidencia es necesaria para registrar y validar los ejercicios realizados y entregados en clase.</li><li>Las evidencias entregadas fuera del tiempo establecido no serán tomadas en cuenta.</li></ul></div>
+</section>
+
+<section class="card">
+<h2>Checklist </h2>
+<ul class="checklist-list"><li>La firma corresponde al ejercicio realizado en clase.</li><li>La imagen de la firma es clara y legible.</li><li>El archivo tiene extensión .mblock.</li><li>Los nombres de los archivos son correctos.</li><li>Solo un integrante realiza la entrega.</li><li>La entrega se realiza antes de la fecha y hora establecidas.</li></ul>
+</section>
+
+</main>
+<footer><p>Osmar García Zanabria · Ingeniería Electrónica · ITSAO</p></footer>
+</body>
+</html>
