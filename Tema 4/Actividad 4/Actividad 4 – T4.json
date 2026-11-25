@@ -1,0 +1,134 @@
+{
+  "alineacion_bloques": {
+    "fecha": "center",
+    "formato": "left",
+    "nombres": "left"
+  },
+  "alineacion_imagenes": {
+    "imagen": "center",
+    "imagen_carga": "center",
+    "imagen_equipo": "center"
+  },
+  "titulos_secciones": {
+    "Datos de la actividad": {
+      "texto": "Datos de la actividad ",
+      "alineacion": "left"
+    },
+    "Descripción": {
+      "texto": "Ejercicio 5: Trayectoria sincronizada de seis articulaciones",
+      "alineacion": "left"
+    },
+    "Requerimientos": {
+      "texto": "Requerimientos de la Actividad",
+      "alineacion": "left"
+    },
+    "Instrucciones de entrega": {
+      "texto": "Instrucciones de entrega",
+      "alineacion": "left"
+    },
+    "Instrucciones y criterios": {
+      "texto": "Instrucciones ",
+      "alineacion": "left"
+    },
+    "Criterios y condiciones": {
+      "texto": "Criterios y condiciones",
+      "alineacion": "left"
+    },
+    "Entrega del archivo": {
+      "texto": "Entrega del archivo",
+      "alineacion": "left"
+    },
+    "Instrucciones para cargar el archivo": {
+      "texto": "Instrucciones para cargar el archivo",
+      "alineacion": "left"
+    },
+    "Formato para nombrar los archivos": {
+      "texto": "Formato para nombrar los archivos",
+      "alineacion": "left"
+    },
+    "Enlaces y recursos": {
+      "texto": "Enlaces y recursos",
+      "alineacion": "left"
+    },
+    "Notas importantes": {
+      "texto": "Notas importantes",
+      "alineacion": "left"
+    },
+    "Checklist": {
+      "texto": "Checklist",
+      "alineacion": "left"
+    }
+  },
+  "formato_secciones": {
+    "0": {
+      "texto": "justify",
+      "imagen": "left"
+    },
+    "1": {
+      "texto": "justify",
+      "imagen": "center"
+    },
+    "2": {
+      "texto": "justify",
+      "imagen": "right"
+    },
+    "3": {
+      "texto": "justify",
+      "imagen": "center"
+    },
+    "4": {
+      "texto": "justify",
+      "imagen": "center"
+    },
+    "5": {
+      "texto": "justify",
+      "imagen": "right"
+    },
+    "6": {
+      "texto": "justify",
+      "imagen": "left"
+    }
+  },
+  "version": "2.25",
+  "numero": "4",
+  "tema": "T4",
+  "ejercicio": "18",
+  "actividad": "4",
+  "titulo_principal": "Actividad 4 – T4 - Ejericicio 4",
+  "subtitulo": "Trayectoria sincronizada de seis articulaciones",
+  "nombre_archivo": "Actividad 4 – T4.html",
+  "materia": "Tópicos Selectos de Robótica",
+  "unidad": "Unidad 2: estructuras de control",
+  "titulo": "",
+  "docente": "Osmar García Zanabria",
+  "institucion": "Instituto Tecnológico Superior de Acatlán de Osorio",
+  "fecha_limite": "2026-11-26",
+  "hora_limite": "23:59",
+  "estado_entrega": "habilitado",
+  "mostrar_contador": "si",
+  "cierre_automatico": "si",
+  "descripcion": "Cada pareja desarrollará un programa en Python conectado a ROS 2 para controlar el robot UR10e en Gazebo mediante la acción FollowJointTrajectory. El robot partirá de su posición actual y recorrerá cuatro configuraciones articulares en las que participen sus seis articulaciones. El programa ejecutará dos recorridos completos y mostrará su avance y resultado en la terminal.",
+  "requerimientos": "<div style=\"text-align:justify\"><span style=\"font-weight:bold\">L</span><span style=\"font-weight:bold\">e</span><span style=\"font-weight:bold\">c</span><span style=\"font-weight:bold\">t</span><span style=\"font-weight:bold\">u</span><span style=\"font-weight:bold\">r</span><span style=\"font-weight:bold\">a</span><span style=\"font-weight:bold\"> </span><span style=\"font-weight:bold\">d</span><span style=\"font-weight:bold\">e</span><span style=\"font-weight:bold\"> </span><span style=\"font-weight:bold\">l</span><span style=\"font-weight:bold\">a</span><span style=\"font-weight:bold\"> </span><span style=\"font-weight:bold\">p</span><span style=\"font-weight:bold\">o</span><span style=\"font-weight:bold\">s</span><span style=\"font-weight:bold\">i</span><span style=\"font-weight:bold\">c</span><span style=\"font-weight:bold\">i</span><span style=\"font-weight:bold\">ó</span><span style=\"font-weight:bold\">n</span><span style=\"font-weight:bold\"> </span><span style=\"font-weight:bold\">i</span><span style=\"font-weight:bold\">n</span><span style=\"font-weight:bold\">i</span><span style=\"font-weight:bold\">c</span><span style=\"font-weight:bold\">i</span><span style=\"font-weight:bold\">a</span><span style=\"font-weight:bold\">l</span>. La pareja iniciará la simulación y creará un nodo de ROS 2 en Python que se suscriba a /joint_states. El programa identificará las seis articulaciones por su nombre y obtendrá sus posiciones actuales.<br><br><span style=\"font-weight:bold\">D</span><span style=\"font-weight:bold\">e</span><span style=\"font-weight:bold\">f</span><span style=\"font-weight:bold\">i</span><span style=\"font-weight:bold\">n</span><span style=\"font-weight:bold\">i</span><span style=\"font-weight:bold\">c</span><span style=\"font-weight:bold\">i</span><span style=\"font-weight:bold\">ó</span><span style=\"font-weight:bold\">n</span><span style=\"font-weight:bold\"> </span><span style=\"font-weight:bold\">d</span><span style=\"font-weight:bold\">e</span><span style=\"font-weight:bold\"> </span><span style=\"font-weight:bold\">l</span><span style=\"font-weight:bold\">a</span><span style=\"font-weight:bold\"> </span><span style=\"font-weight:bold\">t</span><span style=\"font-weight:bold\">r</span><span style=\"font-weight:bold\">a</span><span style=\"font-weight:bold\">y</span><span style=\"font-weight:bold\">e</span><span style=\"font-weight:bold\">c</span><span style=\"font-weight:bold\">t</span><span style=\"font-weight:bold\">o</span><span style=\"font-weight:bold\">r</span><span style=\"font-weight:bold\">i</span><span style=\"font-weight:bold\">a</span><span style=\"font-weight:bold\">.</span> Se establecerán cuatro configuraciones como desplazamientos respecto a la posición inicial. Los desplazamientos se definirán en grados y se convertirán a radianes mediante:<br><br>radianes = grados × π / 180<br><br><span style=\"font-weight:bold\">E</span><span style=\"font-weight:bold\">n</span><span style=\"font-weight:bold\">v</span><span style=\"font-weight:bold\">í</span><span style=\"font-weight:bold\">o</span><span style=\"font-weight:bold\"> </span><span style=\"font-weight:bold\">y</span><span style=\"font-weight:bold\"> </span><span style=\"font-weight:bold\">r</span><span style=\"font-weight:bold\">e</span><span style=\"font-weight:bold\">p</span><span style=\"font-weight:bold\">e</span><span style=\"font-weight:bold\">t</span><span style=\"font-weight:bold\">i</span><span style=\"font-weight:bold\">c</span><span style=\"font-weight:bold\">i</span><span style=\"font-weight:bold\">ó</span><span style=\"font-weight:bold\">n</span><span style=\"font-weight:bold\">.</span> El programa enviará los puntos mediante FollowJointTrajectory, con tiempos acumulados crecientes y una separación de al menos 3 segundos entre puntos. Ejecutará la secuencia dos veces, considerando la posición actual del robot al comenzar cada recorrido.<br><br><span style=\"font-weight:bold\">S</span><span style=\"font-weight:bold\">u</span><span style=\"font-weight:bold\">p</span><span style=\"font-weight:bold\">e</span><span style=\"font-weight:bold\">r</span><span style=\"font-weight:bold\">v</span><span style=\"font-weight:bold\">i</span><span style=\"font-weight:bold\">s</span><span style=\"font-weight:bold\">i</span><span style=\"font-weight:bold\">ó</span><span style=\"font-weight:bold\">n</span><span style=\"font-weight:bold\">.</span> La terminal mostrará el inicio de cada repetición y su resultado. El programa detectará y reportará la ausencia de estados articulares, la falta de disponibilidad del controlador, el rechazo de la trayectoria o un fallo durante su ejecución.<br><br><span style=\"font-weight:bold\">E</span><span style=\"font-weight:bold\">n</span><span style=\"font-weight:bold\">t</span><span style=\"font-weight:bold\">r</span><span style=\"font-weight:bold\">e</span><span style=\"font-weight:bold\">g</span><span style=\"font-weight:bold\">a</span><span style=\"font-weight:bold\">.</span><span style=\"font-weight:bold\"> </span>Cada pareja entregará: El archivo Ejercicio_4.py, correspondiente a la versión probada. Un video de captura de pantalla que muestre el robot en Gazebo durante los dos recorridos y los mensajes de la terminal. El video incluirá una explicación breve de la conversión a radianes y la construcción de los puntos.<br><br>Graba la pantalla mientras se realiza la actividad. Se puede utilizar OBS Studio, PowerPoint, Zoom, Teams, la herramienta de grabación de Windows o cualquier otro grabador de pantalla.<br><br>El video deberá alojarse en alguna plataforma que permita compartirlo mediante un enlace, por ejemplo: Google Drive, Dropbox, Filestage, YouTube, WeTransfer, MediaFire, iCloud, Box, MEGA u otra plataforma similar.</div>",
+  "instrucciones": "",
+  "entrega": "<div style=\"text-align:left\">El archivo no se entregará por este medio; deberá enviarse a través del enlace compartido dando click en el icono.</div>",
+  "condiciones": "<div style=\"text-align:justify\">Ambos integrantes participarán en el desarrollo, las pruebas y la explicación.<br><br>Las seis articulaciones deberán intervenir en la trayectoria. Se utilizarán desplazamientos moderados, preferentemente entre −30° y +30°, respetando los límites articulares y evitando colisiones.<br><br>Los nombres y el orden de las articulaciones enviados al controlador deberán coincidir con los utilizados para construir las posiciones.<br><br>La segunda repetición comenzará después de confirmar que la primera terminó correctamente.<br><br>La confirmación de finalización deberá basarse en el resultado de la acción, no únicamente en el tiempo transcurrido.<br><br>Un solo integrante realizará la entrega e identificará a ambos participantes. Los archivos deberán llevar los nombres solicitados y enviarse por el medio y dentro del plazo indicados.</div>",
+  "instruccion_carga": "<div style=\"text-align:left\">Al seleccionar el enlace o botón de entrega, aparecerá una ventana para cargar el archivo solicitado. Haz clic en “<span style=\"font-weight:bold\">S</span><span style=\"font-weight:bold\">e</span><span style=\"font-weight:bold\">l</span><span style=\"font-weight:bold\">e</span><span style=\"font-weight:bold\">c</span><span style=\"font-weight:bold\">c</span><span style=\"font-weight:bold\">i</span><span style=\"font-weight:bold\">o</span><span style=\"font-weight:bold\">n</span><span style=\"font-weight:bold\">a</span><span style=\"font-weight:bold\">r</span><span style=\"font-weight:bold\"> </span><span style=\"font-weight:bold\">a</span><span style=\"font-weight:bold\">r</span><span style=\"font-weight:bold\">c</span><span style=\"font-weight:bold\">h</span><span style=\"font-weight:bold\">i</span><span style=\"font-weight:bold\">v</span><span style=\"font-weight:bold\">o</span><span style=\"font-weight:bold\">s</span>” y elige el archivo que corresponde a esta actividad.<br><br>El nombre que aparece en la imagen es un <span style=\"font-weight:bold;color:#ff0000\">e</span><span style=\"font-weight:bold;color:#ff0000\">j</span><span style=\"font-weight:bold;color:#ff0000\">e</span><span style=\"font-weight:bold;color:#ff0000\">m</span><span style=\"font-weight:bold;color:#ff0000\">p</span><span style=\"font-weight:bold;color:#ff0000\">l</span><span style=\"font-weight:bold;color:#ff0000\">o</span><span style=\"color:#ff0000\">.</span></div>",
+  "instruccion_equipo": "<div style=\"text-align:left\">Después de seleccionar el archivo, aparecerán los campos <span style=\"font-weight:bold;color:#ff0000\">N</span><span style=\"font-weight:bold;color:#ff0000\">o</span><span style=\"font-weight:bold;color:#ff0000\">m</span><span style=\"font-weight:bold;color:#ff0000\">b</span><span style=\"font-weight:bold;color:#ff0000\">r</span><span style=\"font-weight:bold;color:#ff0000\">e</span> y <span style=\"font-weight:bold;color:#ff0000\">A</span><span style=\"font-weight:bold;color:#ff0000\">p</span><span style=\"font-weight:bold;color:#ff0000\">e</span><span style=\"font-weight:bold;color:#ff0000\">l</span><span style=\"font-weight:bold;color:#ff0000\">l</span><span style=\"font-weight:bold;color:#ff0000\">i</span><span style=\"font-weight:bold;color:#ff0000\">d</span><span style=\"font-weight:bold;color:#ff0000\">o</span><span style=\"font-weight:bold;color:#ff0000\">s</span>. Escribe lo siguiente:<br><br>Nombre: <span style=\"font-weight:bold;color:#ff0000\">E</span><span style=\"font-weight:bold;color:#ff0000\">q</span><span style=\"font-weight:bold;color:#ff0000\">u</span><span style=\"font-weight:bold;color:#ff0000\">i</span><span style=\"font-weight:bold;color:#ff0000\">p</span><span style=\"font-weight:bold;color:#ff0000\">o</span><br>Apellidos: <span style=\"font-weight:bold;color:#ff0000\">X</span><br><br>Donde:<br><span style=\"font-weight:bold;color:#ff0000\">X</span> es el número de equipo al que pertenecen.<br><br><span style=\"font-weight:bold\">E</span><span style=\"font-weight:bold\">s</span><span style=\"font-weight:bold\">t</span><span style=\"font-weight:bold\">e</span><span style=\"font-weight:bold\"> </span><span style=\"font-weight:bold\">p</span><span style=\"font-weight:bold\">r</span><span style=\"font-weight:bold\">o</span><span style=\"font-weight:bold\">c</span><span style=\"font-weight:bold\">e</span><span style=\"font-weight:bold\">d</span><span style=\"font-weight:bold\">i</span><span style=\"font-weight:bold\">m</span><span style=\"font-weight:bold\">i</span><span style=\"font-weight:bold\">e</span><span style=\"font-weight:bold\">n</span><span style=\"font-weight:bold\">t</span><span style=\"font-weight:bold\">o</span><span style=\"font-weight:bold\"> </span><span style=\"font-weight:bold\">e</span><span style=\"font-weight:bold\">s</span><span style=\"font-weight:bold\"> </span><span style=\"font-weight:bold\">e</span><span style=\"font-weight:bold\">l</span><span style=\"font-weight:bold\"> </span><span style=\"font-weight:bold\">m</span><span style=\"font-weight:bold\">i</span><span style=\"font-weight:bold\">s</span><span style=\"font-weight:bold\">m</span><span style=\"font-weight:bold\">o</span><span style=\"font-weight:bold\"> </span><span style=\"font-weight:bold\">p</span><span style=\"font-weight:bold\">a</span><span style=\"font-weight:bold\">r</span><span style=\"font-weight:bold\">a</span><span style=\"font-weight:bold\"> </span><span style=\"font-weight:bold\">l</span><span style=\"font-weight:bold\">o</span><span style=\"font-weight:bold\">s</span><span style=\"font-weight:bold\"> </span><span style=\"font-weight:bold\">d</span><span style=\"font-weight:bold\">o</span><span style=\"font-weight:bold\">s</span><span style=\"font-weight:bold\"> </span><span style=\"font-weight:bold\">a</span><span style=\"font-weight:bold\">r</span><span style=\"font-weight:bold\">c</span><span style=\"font-weight:bold\">h</span><span style=\"font-weight:bold\">i</span><span style=\"font-weight:bold\">v</span><span style=\"font-weight:bold\">o</span><span style=\"font-weight:bold\">s</span><span style=\"font-weight:bold\"> </span><span style=\"font-weight:bold\">q</span><span style=\"font-weight:bold\">u</span><span style=\"font-weight:bold\">e</span><span style=\"font-weight:bold\"> </span><span style=\"font-weight:bold\">s</span><span style=\"font-weight:bold\">e</span><span style=\"font-weight:bold\"> </span><span style=\"font-weight:bold\">t</span><span style=\"font-weight:bold\">i</span><span style=\"font-weight:bold\">e</span><span style=\"font-weight:bold\">n</span><span style=\"font-weight:bold\">e</span><span style=\"font-weight:bold\">n</span><span style=\"font-weight:bold\"> </span><span style=\"font-weight:bold\">q</span><span style=\"font-weight:bold\">u</span><span style=\"font-weight:bold\">e</span><span style=\"font-weight:bold\"> </span><span style=\"font-weight:bold\">e</span><span style=\"font-weight:bold\">n</span><span style=\"font-weight:bold\">t</span><span style=\"font-weight:bold\">r</span><span style=\"font-weight:bold\">e</span><span style=\"font-weight:bold\">g</span><span style=\"font-weight:bold\">a</span><span style=\"font-weight:bold\">r</span><span style=\"font-weight:bold\">.</span><br></div>",
+  "imagen_carga": "https://raw.githubusercontent.com/OsmarZanabria11/Imagenes/main/2a.png",
+  "imagen_equipo": "https://raw.githubusercontent.com/OsmarZanabria11/Imagenes/main/1a.png",
+  "firma": "AX - Nombres.pdf",
+  "simulacion": "",
+  "enlace": "https://itsaoedu-my.sharepoint.com/:f:/g/personal/osmar_zanabria_itsao_edu_mx/IgDtqLW-txwjTIW1YSpe_yMdAeo3VLR9qB2opq4Ckv-_dB8",
+  "imagen": "https://raw.githubusercontent.com/OsmarZanabria11/Imagenes/main/one.png",
+  "enlaces": "",
+  "imagen_carga_ancho": "310",
+  "imagen_carga_alto": "270",
+  "imagen_equipo_ancho": "310",
+  "imagen_equipo_alto": "270",
+  "imagen_entrega_ancho": "180",
+  "imagen_entrega_alto": "120",
+  "nota_entrega": "<div style=\"text-align:justify\"><span style=\"font-weight:bold\">N</span><span style=\"font-weight:bold\">o</span><span style=\"font-weight:bold\">t</span><span style=\"font-weight:bold\">a</span><span style=\"font-weight:bold\">:</span> Revisa los permisos de la carpeta antes de entregar.</div>",
+  "notas": "<div style=\"text-align:justify\">Donde: <br><br><span style=\"font-weight:bold;color:#ff0000\">A</span><span style=\"font-weight:bold;color:#ff0000\">C</span><span style=\"font-weight:bold;color:#ff0000\">:</span> Actividad.<br><span style=\"font-weight:bold;color:#ff0000\">X</span>: Número de la actividad.<br><span style=\"font-weight:bold;color:#ff0000\">N</span><span style=\"font-weight:bold;color:#ff0000\">o</span><span style=\"font-weight:bold;color:#ff0000\">m</span><span style=\"font-weight:bold;color:#ff0000\">b</span><span style=\"font-weight:bold;color:#ff0000\">r</span><span style=\"font-weight:bold;color:#ff0000\">e</span><span style=\"font-weight:bold;color:#ff0000\">s</span>: Nombre de los integrante. Ejemplo: Juan - Pedro<br></div>",
+  "checklist": "<div style=\"text-align:justify\">El programa obtiene la posición inicial desde /joint_states e identifica las seis articulaciones.<br><br>Las cuatro configuraciones se calculan respecto a la posición inicial y utilizan radianes.<br><br>Los tiempos son crecientes y dejan al menos 3 segundos entre puntos.<br><br>El robot ejecuta dos recorridos completos mediante FollowJointTrajectory.<br><br>El programa comprueba el resultado de cada repetición y reporta los errores previstos.<br><br>El video permite observar Gazebo, los mensajes de la terminal y la explicación solicitada.<br><br>Se entrega Ejercicio_4.py y el archivo con extensión .txt contiene el enlace.<br><br>La entrega identifica a ambos integrantes y cumple con el plazo establecido.</div>",
+  "apartados_adicionales": []
+}
